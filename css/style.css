@@ -92,7 +92,7 @@ button, .fiveth__box__grid__input__btn:hover{
 										/*first container*/
 
 .container__first__home{
-	/*z-index: 1;*/
+	z-index: 1;
 	position: absolute;
 	top: 151px;
 	right: 110px;
@@ -104,7 +104,7 @@ button, .fiveth__box__grid__input__btn:hover{
 	color:  white;
 }
 .first__box{
-	/*z-index: 2;*/
+	z-index: 10;
 	margin-top: 200px;
 	margin-left: 18%;
 	display: inline-block;
@@ -380,8 +380,10 @@ button, .fiveth__box__grid__input__btn:hover{
 
   										/* trird container */
 .container__third__photo{
-	position: absolute;
+	
 	right: 385px;
+    margin-bottom: 10%;
+    z-index: 1;
 
 }
 .container__third{
@@ -410,12 +412,15 @@ button, .fiveth__box__grid__input__btn:hover{
 	padding-bottom: 165px;
 }
 .third__box__ul{
-	list-style-type: none;
+    display: inline-block;
+   	list-style-type: none;
+    z-index: 20;
 }
 .third__box__li{
 	display: flex;
 	align-items: center;
 	margin-top: 50px;
+    z-index: 20;
 }
 .third__box__li__h2{
 	max-width: 450px;
@@ -433,6 +438,7 @@ button, .fiveth__box__grid__input__btn:hover{
 	display: inline-block;
 	width: 40px;
 	height: 40px;
+     
 }
 
 

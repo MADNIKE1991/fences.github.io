@@ -9,9 +9,29 @@
 }
 @media screen and (max-width: 1700px){
 	.container__first__home{
-		right: -300px;
+		width: 80%;
+        left: 30%;
 	}
+    @media screen and (max-width: 1600px){
+	.container__first__home{
+		width: 60%;
+        left: 680px;
+	}
+    @media screen and (max-width: 1280px){
+	.container__first__home{
+		width: 40%;
+        left: 650px;
+	}
+    @media screen and (max-width: 1280px){
+	.container__first__home{
+		width: 45%;
+        margin-left: 40px;
+        
+	}
+    
+	
 	.container__third__photo{
+        max-width: 50%;
 		right: 100px;
 	}
 	.fourth__box{
@@ -23,6 +43,17 @@
 		margin:  0 auto;
 	}
 }
+        @media screen and (max-width: 1600px){
+	.container__third__photo{
+       right: -500px;
+            }
+            
+    @media screen and (max-width: 1350px){
+	.container__third__photo{
+		right: 10px;
+	}
+}
+              
 @media screen and (max-width: 1350px){
 	.container__third__photo{
 		right: 10px;
@@ -30,7 +61,7 @@
 }
 @media screen and (max-width: 1250px){
 	.container__third__photo{
-		right: -200px;
+		width: 50%;
 	}
 }
 @media screen and (max-width: 1100px){
@@ -159,8 +190,11 @@
 		padding: 50px 0;
 	}
 	.fiveth__box__grid{
-		width: 100%;
-		margin: 0;
+        justify-items: center;
+		width: 70%;
+		margin: 0 auto;
+        margin-left: 25%;
+        
 		padding: 20px 0 0 0;
 	}
     .grid__img{
@@ -171,6 +205,11 @@
 		margin-bottom: 20px
 	}
 }
+    @media screen and (max-width: 770px){
+        .fiveth__box__grid{
+            margin-left: 20%;
+            
+        }
 @media screen and (max-width: 566px){
 	.slider__description{
 		font-size: 14px;
