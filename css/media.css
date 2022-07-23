@@ -24,10 +24,15 @@
 	}
     @media screen and (max-width: 1280px){
 	.container__first__home{
-		width: 45%;
-        margin-left: 40px;
+		width: 40%;
+        margin-left: 30px;
+        	}
+    @media screen and (max-width: 1024px){
+	.container__first__home{
+		width: 30%;
+        margin-left: 30px;
+        	}
         
-	}
     
 	
 	.container__third__photo{
