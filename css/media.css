@@ -1,10 +1,9 @@
-@media screen and (max-width: 1919px){
+@media screen and (max-width: 1920px){
 	.fiveth__box__grid__input__btn{
 		position: relative;
-				;
-		
-	}
-}
+    }}
+  
+   
 @media screen and (max-width: 1700px){
 	.container__first__home{
 		width: 70%;
@@ -64,7 +63,7 @@
 }
 @media screen and (max-width: 1250px){
 	.container__third__photo{
-		width: 50%;
+		
 	}
 }
 @media screen and (max-width: 1100px){
@@ -89,10 +88,19 @@
 		grid-row-gap: 30px;
 	}
 }
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1280px){
 	.footer__box{
 		width: 100%;
 	}
+    .fourth__cards__box__sale{
+        width: 50%;}
+    .fourth__cards__sale__prise{
+    font-size: 18px;}
+    .container__header {
+        width: 78.1%;
+    }
+    
+    
 }
 @media screen and (max-width: 1010px){
 	.fourth__box__cont{
@@ -379,17 +387,27 @@
 	.first__box__container__first__icons{
 		width: 16px;
 		height: 16px;
-	}
+        	}
+   
 }
 @media screen and (max-width: 850px){
 	.fiveth__box__grid__input{
 		width: 60%;
-        margin-left: 20%;}
-@media screen and (max-width: 820px){
+        margin-left: 20%;
+    }
+
 	.fiveth__box__grid{
-        
+        width: 100%;
+        margin: 0px;
 		padding: 10px;
+        align-items: center;
 	}
+    .fourth__cards__box__sale{
+        width: 100%;
+    }
+    .fourth__cards__images__box{
+        width: 100%;
+    }
 	.fiveth__box__grid__input{
 		width: 60%;
 		position: relative;
@@ -431,6 +449,9 @@
 		margin: 0 auto;
 		font-size: 14px;
 	}
+    .fourth__cards__images__box{
+        width: 80%;
+    }
 }
 @media screen and (max-width: 540px){
 	.fiveth__box{
@@ -447,13 +468,59 @@
 	.fiveth__box__grid__input__btn{
 		margin-bottom: 20px
 	}
-}
+
+     .container__header{
+        width: 56%;
+         ;}
+    .header__logo__icon{
+        display: inline-block;
+    }}
+    
     @media screen and (max-width: 450px){
 	.fiveth__box__grid{
-        margin-left: 15%;}
+        margin-left: 15%;}}
     @media screen and (max-width: 980px){
 	.up_icon{
-		display: inline-block;
-    @media screen and (max-width: 375px){
-	.fiveth__box__bottom{
+        display: inline-block;}}
+    @media screen and (max-width: 376px){
+        .container__header{
+        width:51.4%;
+        }
+    .header__contacts__icons{
+     margin: 0;
+    }
+    
+    .header__logo__text{
+        font-size: 12px;  
+    }
+    
+    	.fiveth__box__bottom{
         right: 10%;}
+    .fourth__cards__images__box {
+              width: 60%;
+        margin-left: 2%;}
+    
+        
+    .fourth__cards__image {
+          width: 60%;
+        margin-left: 2%;}
+    
+    
+    .fourth__cards__prise__box__h2 {
+        width: 60%;
+        margin-left: 2%;}
+    
+        .fourth__cards__prise__box__about{
+            width: 60%;
+        margin-left: 2%;}
+        
+        .fourth__cards__box__sale{
+             
+        margin-left: 2%;
+        }
+        .fiveth__box{
+             width: 60%;
+            margin-left: -5%;
+        
+        }
+    }
