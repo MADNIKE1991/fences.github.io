@@ -1,36 +1,34 @@
 @media screen and (max-width: 1919px){
 	.fiveth__box__grid__input__btn{
 		position: relative;
-		margin-top: 10px;
-		left: 50%;
-		transform: translate(-50%, 0);
-		bottom: 0;
+				;
+		
 	}
 }
 @media screen and (max-width: 1700px){
 	.container__first__home{
-		width: 80%;
+		width: 70%;
         left: 30%;
 	}
     @media screen and (max-width: 1600px){
 	.container__first__home{
-		width: 60%;
-        left: 680px;
+		width: 50%;
+        left: 50%;
 	}
     @media screen and (max-width: 1280px){
 	.container__first__home{
 		width: 40%;
-        left: 650px;
+        left: 55%;
 	}
     @media screen and (max-width: 1280px){
 	.container__first__home{
-		width: 40%;
-        margin-left: 30px;
+		
+        left: 60%;
         	}
     @media screen and (max-width: 1024px){
 	.container__first__home{
 		width: 30%;
-        margin-left: 30px;
+        left: 70%;
         	}
         
     
@@ -190,7 +188,7 @@
 		padding-top: 20px;
 	}
 	.fiveth__box{
-		width: 100%;
+		max-width: 100%;
 		margin: 0;
 		padding: 50px 0;
 	}
@@ -436,19 +434,26 @@
 }
 @media screen and (max-width: 540px){
 	.fiveth__box{
-		width: 100%;
+		width: 60%;
 		margin: 0;
 		padding: 50px 0;
 	}
 	.fiveth__box__grid{
-		width: 100%;
+		max-width: 100%;
 		margin: 0;
 		padding: 20px 0 0 0;
+        margin-left: 30%;
 	}
 	.fiveth__box__grid__input__btn{
 		margin-bottom: 20px
 	}
 }
+    @media screen and (max-width: 450px){
+	.fiveth__box__grid{
+        margin-left: 15%;}
     @media screen and (max-width: 980px){
 	.up_icon{
 		display: inline-block;
+    @media screen and (max-width: 375px){
+	.fiveth__box__bottom{
+        right: 10%;}
