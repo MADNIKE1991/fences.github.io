@@ -1,7 +1,7 @@
 @media screen and (max-width: 1920px){
-	.fiveth__box__grid__input__btn{
+	/*.fiveth__box__grid__input__btn{
 		position: relative;
-    }}
+    }*/
   
    
 @media screen and (max-width: 1700px){
@@ -92,24 +92,38 @@
 	.footer__box{
 		width: 100%;
 	}
-    .fourth__cards__box__sale{
-        width: 50%;}
     .fourth__cards__sale__prise{
     font-size: 18px;}
-    .container__header {
+    /*.container__header {
         width: 78.1%;
-    }
+    }*/
     
     
 }
 @media screen and (max-width: 1010px){
+	.fourth__box__cont {
+	    padding-top: 0px;
+	}
+
+	.fourth__box__cont:last-child {
+	    padding-top: 0px;
+	    padding-bottom: 0px;
+	}
+	.fourth__cards__images{
+		padding-top: 120px;
+	}
+	.fourth__box{
+		padding-bottom: 120px;
+	}
 	.fourth__box__cont{
 		grid-template-columns: repeat(1, 1fr);
+		/*grid-row-gap: 120px;*/
 		width: 60%;
 		margin: 0 auto;
 	}
 	.fourth__box__cont:last-child{
 		grid-template-columns: repeat(1, 1fr);
+		/*grid-row-gap: 120px;*/
 		width: 60%;
 	}	
 	.fourth__cards__prise__box__h2{
@@ -197,14 +211,14 @@
 	}
 	.fiveth__box{
 		max-width: 100%;
-		margin: 0;
+		margin: 0 auto;
 		padding: 50px 0;
 	}
 	.fiveth__box__grid{
-        justify-items: center;
-		width: 70%;
+        right: 8%;
+		width: 80%;
 		margin: 0 auto;
-        margin-left: 25%;
+        margin-left: 0
         
 		padding: 20px 0 0 0;
 	}
@@ -212,13 +226,14 @@
         display: none;
         
     }
-	.fiveth__box__grid__input__btn{
+	/*.fiveth__box__grid__input__btn{
 		margin-bottom: 20px
-	}
+	}*/
 }
     @media screen and (max-width: 770px){
         .fiveth__box__grid{
-            margin-left: 20%;
+            width: 65%;
+            margin-left: 25%;
             
         }
 @media screen and (max-width: 566px){
@@ -303,38 +318,44 @@
 	}
 }
 @media screen and (max-width: 620px){
-	.fourth__cards__prise__box__h2,
+	/*.fourth__cards__prise__box__h2,
 	.fourth__cards__prise__box__about,
 	.fourth__cards__box__sale{
 		padding: 14px;
-	}
+	}*/
 }
 @media screen and (max-width: 600px){
-	.fourth__cards__images__one{
+/*	.fourth__cards__images__one{
 		width: 500px;
 		margin: 0 auto;
-	}
+	}*/
 }
 @media screen and (max-width: 500px){
-	.fourth__cards__images__one{
+	/*.fourth__cards__images__one{
 		width: 400px;
 		margin: 0 auto;
-	}
+	}*/
 	.fourth__cards__sale__btn{
 		padding: 10px;
 	}
+}
+@media screen and (max-width: 467px){
+	.grid__colors{
+		grid-template-columns: repeat(2, 1fr);
+		grid-row-gap: 10px;
 }
 @media screen and (max-width: 382px){
 	.fourth__cards__sale__btn{
 		font-size: 12px;
 	}
 }
-@media screen and (max-width: 400px){
-	.fourth__cards__images__one{
-		width: 300px;
-		margin: 0 auto;
+@media screen and (max-width: 360px){
+	.grid__colors img{
+		width: 18px;
+		height: 18px;
 	}
 }
+
 @media screen and (max-width: 550px){
 	.fiveth__box__grid__h2{
 		font-size: 20px;
@@ -357,8 +378,11 @@
 }
 @media screen and (max-width: 468px){
 	.fiveth__box__grid{
-		padding: 5px;
-	}
+        width: 100%;
+    padding-right: 13%;
+    padding-right: 15%}
+    	
+    }
 	.fiveth__box__grid__h2{
 		margin: 0 auto;
 		width: 80%;
@@ -367,9 +391,13 @@
 	.fiveth__box__grid__h2__bottom{
 		font-size: 10px;
 		width: 80%;
-		margin: 0 auto;
+        margin: 0 auto;
 	}
-	.fiveth__box__grid__input{
+    .footer__logo__img{
+        display: none;
+    }
+    }
+	/*.fiveth__box__grid__input{
 		width: 60%;
 		padding: 10px;
 		position: relative;
@@ -378,7 +406,7 @@
 	}
 	.fiveth__box__grid__input__btn{
 		padding: 10px;
-	}
+	}*/
 }
 @media screen and (max-width: 360px){
 	.first__box__h1, .first__box__h2{
@@ -391,9 +419,9 @@
    
 }
 @media screen and (max-width: 850px){
-	.fiveth__box__grid__input{
-		width: 60%;
-        margin-left: 20%;
+	.fiveth__box__grid{
+		width: 100%;
+        
     }
 
 	.fiveth__box__grid{
@@ -408,12 +436,12 @@
     .fourth__cards__images__box{
         width: 100%;
     }
-	.fiveth__box__grid__input{
+	/*.fiveth__box__grid__input{
 		width: 60%;
 		position: relative;
 		left: 30%;
 		transform: translate(-50%, 0);
-	}
+	}*/
 }
 @media screen and (max-width: 640px){
 	.fiveth__box__grid__h2{
@@ -423,7 +451,7 @@
 		font-size: 14px;
 	}
 }
-@media screen and (max-width: 610px){
+/*@media screen and (max-width: 610px){
 	.fiveth__box__grid__h2{
 		width: 80%;
 		margin: 0 auto;
@@ -435,10 +463,10 @@
 		font-size: 14px;
 	}
     
-}
+}*/
 
 
-@media screen and (max-width: 610px){
+/*@media screen and (max-width: 610px){
 	.fiveth__box__grid__h2{
 		width: 70%;
 		margin: 0 auto;
@@ -452,40 +480,38 @@
     .fourth__cards__images__box{
         width: 80%;
     }
+}*/
+    @media screen and (max-width: 1009px){
+
+	.fiveth__box__grid{    
+        width: 100%;
+        padding-left: 2%;
+        padding-right: 2%;
+        margin-left: 17%;
+	}
+	
 }
 @media screen and (max-width: 540px){
-	.fiveth__box{
-		width: 60%;
-		margin: 0;
-		padding: 50px 0;
-	}
-	.fiveth__box__grid{
-		max-width: 100%;
-		margin: 0;
-		padding: 20px 0 0 0;
-        margin-left: 30%;
-	}
-	.fiveth__box__grid__input__btn{
-		margin-bottom: 20px
-	}
 
-     .container__header{
-        width: 56%;
-         ;}
-    .header__logo__icon{
-        display: inline-block;
-    }}
-    
-    @media screen and (max-width: 450px){
 	.fiveth__box__grid{
-        margin-left: 15%;}}
+		width: 100%;
+        right: 15%;
+        left: -11%;
+        margin: 0;
+        padding-left: 2%;
+        padding-right: 2%;
+	}
+	
+}
+    /*@media screen and (max-width: 450px){*/
+    @media screen and (max-width: 980px){
+        padding-right 13%;
+    }
+	.container__third
     @media screen and (max-width: 980px){
 	.up_icon{
-        display: inline-block;}}
-    @media screen and (max-width: 376px){
-        .container__header{
-        width:51.4%;
-        }
+        display: inline-block;}
+    /*@media screen and (max-width: 376px){
     .header__contacts__icons{
      margin: 0;
     }
@@ -512,15 +538,16 @@
     
         .fourth__cards__prise__box__about{
             width: 60%;
-        margin-left: 2%;}
+        	margin-left: 2%;
+		}
         
         .fourth__cards__box__sale{
              
-        margin-left: 2%;
+        	margin-left: 2%;
         }
         .fiveth__box{
              width: 60%;
             margin-left: -5%;
         
         }
-    }
+    }*/
