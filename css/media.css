@@ -1,39 +1,29 @@
-@media screen and (max-width: 1920px){
-	/*.fiveth__box__grid__input__btn{
-		position: relative;
-    }*/
-  
-   
 @media screen and (max-width: 1700px){
 	.container__first__home{
 		width: 70%;
         left: 30%;
-	}
+	}}
     @media screen and (max-width: 1600px){
 	.container__first__home{
 		width: 50%;
         left: 50%;
-	}
+	}}
     @media screen and (max-width: 1280px){
 	.container__first__home{
 		width: 40%;
         left: 55%;
-	}
+	}}
     @media screen and (max-width: 1280px){
 	.container__first__home{
-		
-        left: 60%;
-        	}
+		left: 60%;
+        	}}
     @media screen and (max-width: 1024px){
 	.container__first__home{
 		width: 30%;
         left: 70%;
         	}
-        
-    
-	
-	.container__third__photo{
-        max-width: 50%;
+        .container__third__photo{
+        width: 40%;
 		right: 100px;
 	}
 	.fourth__box{
@@ -44,11 +34,23 @@
 		width: 90%;
 		margin:  0 auto;
 	}
+	.third__box__ul{
+		float: none;
+	}
+	.third__box{
+		padding-bottom: 60px;
+	}
+	.grid__img{
+        display: none;
+            }
+			.fiveth__box__grid {
+				width: 80%;
+			}
 }
         @media screen and (max-width: 1600px){
 	.container__third__photo{
        right: -500px;
-            }
+            }}
             
     @media screen and (max-width: 1350px){
 	.container__third__photo{
@@ -61,20 +63,7 @@
 		right: 10px;
 	}
 }
-@media screen and (max-width: 1250px){
-	.container__third__photo{
-		
-	}
-}
-@media screen and (max-width: 1100px){
-	/*.container__second{
-		padding: 0 10% 0 10%;
-	}*/
-	.slider{
-		width: 80%;
-		margin: 0 auto;
-	}
-}
+
 @media screen and (max-width: 990px){
 	.container__third__photo{
 		right: -300px;
@@ -82,7 +71,7 @@
 }
 @media screen and (max-width: 1500px){
 	.fiveth__box{
-		width: 60%;
+		width: 100%;
 		margin: 0 auto;
 		grid-template-columns: repeat(1, 1fr);
 		grid-row-gap: 30px;
@@ -94,15 +83,16 @@
 	}
     .fourth__cards__sale__prise{
     font-size: 18px;}
-    /*.container__header {
-        width: 78.1%;
-    }*/
-    
-    
-}
+   
+        }
+		@media screen and (max-width: 480px){
+		.fourth__cards__sale__prise{	
+			font-size: 14px;}
+		}
 @media screen and (max-width: 1010px){
 	.fourth__box__cont {
 	    padding-top: 0px;
+		width: 100%;
 	}
 
 	.fourth__box__cont:last-child {
@@ -118,13 +108,13 @@
 	.fourth__box__cont{
 		grid-template-columns: repeat(1, 1fr);
 		/*grid-row-gap: 120px;*/
-		width: 60%;
+		width: 100%;
 		margin: 0 auto;
 	}
 	.fourth__box__cont:last-child{
 		grid-template-columns: repeat(1, 1fr);
 		/*grid-row-gap: 120px;*/
-		width: 60%;
+		
 	}	
 	.fourth__cards__prise__box__h2{
 		margin-top: 10px;
@@ -136,15 +126,12 @@
 		margin-top: 10px;
 	}
 }
-@media screen and (max-width: 1700px){
-		.footer__up{
-		 
-	}
+
 @media screen and (max-width: 980px){
 		.footer__up{
 		 justify-content: center;
           margin-left: 5%;
-	}
+	}}
     @media screen and (max-width: 630px){
 		.footer__up{
 		 justify-content: center;
@@ -200,7 +187,10 @@
 		 padding: 0 10px;
     	padding-top: 10px;
     	padding-bottom: 20px;
-	}
+		}
+		.slider__description{
+			left: 20%;
+		}
 }
 @media screen and (max-width: 850px){
 	.fiveth__box__grid__h2, .fiveth__box__grid__h2__bottom{
@@ -210,32 +200,20 @@
 		padding-top: 20px;
 	}
 	.fiveth__box{
+		display: grid;
 		max-width: 100%;
 		margin: 0 auto;
 		padding: 50px 0;
 	}
 	.fiveth__box__grid{
-        right: 8%;
+       
 		width: 80%;
 		margin: 0 auto;
-        margin-left: 0
-        
-		padding: 20px 0 0 0;
+        margin-left: 8%;
+        padding: 20px 0 0 0;
 	}
-    .grid__img{
-        display: none;
-        
-    }
-	/*.fiveth__box__grid__input__btn{
-		margin-bottom: 20px
-	}*/
-}
-    @media screen and (max-width: 770px){
-        .fiveth__box__grid{
-            width: 65%;
-            margin-left: 25%;
-            
-        }
+  }
+
 @media screen and (max-width: 566px){
 	.slider__description{
 		font-size: 14px;
@@ -260,7 +238,7 @@
 	}
 }
 
-}
+
 @media screen and (max-width: 770px){
 	.fiveth__box{
 		width: 90%;
@@ -317,24 +295,13 @@
 		display: inline-block;
 	}
 }
-@media screen and (max-width: 620px){
-	/*.fourth__cards__prise__box__h2,
-	.fourth__cards__prise__box__about,
-	.fourth__cards__box__sale{
-		padding: 14px;
-	}*/
-}
-@media screen and (max-width: 600px){
-/*	.fourth__cards__images__one{
-		width: 500px;
-		margin: 0 auto;
-	}*/
-}
+@media screen and (max-width: 540px){
+.fourth__box__cont{
+	padding-left: 4%;
+	padding-right: 4%;
+}}
 @media screen and (max-width: 500px){
-	/*.fourth__cards__images__one{
-		width: 400px;
-		margin: 0 auto;
-	}*/
+
 	.fourth__cards__sale__btn{
 		padding: 10px;
 	}
@@ -369,8 +336,15 @@
 	}
 }
 @media screen and (max-width: 480px){
+	.first__box{
+		margin-top: 150px;
+	}
 	.first__box__container{
 		flex-direction: column;
+		margin-top: 30px;
+	}
+	.first__box__btn{
+		margin-top: 30px;
 	}
 	.first__box__container__second{
 		margin-left: 0;
@@ -379,10 +353,9 @@
 @media screen and (max-width: 468px){
 	.fiveth__box__grid{
         width: 100%;
-    padding-right: 13%;
-    padding-right: 15%}
-    	
-    }
+  margin: 0 5% 0 5%;}
+  
+    
 	.fiveth__box__grid__h2{
 		margin: 0 auto;
 		width: 80%;
@@ -390,25 +363,15 @@
 	}
 	.fiveth__box__grid__h2__bottom{
 		font-size: 10px;
-		width: 80%;
-        margin: 0 auto;
+		
 	}
     .footer__logo__img{
         display: none;
     }
-    }
-	/*.fiveth__box__grid__input{
-		width: 60%;
-		padding: 10px;
-		position: relative;
-		left: 50%;
-		transform: translate(-50%, 0);
-	}
-	.fiveth__box__grid__input__btn{
-		padding: 10px;
-	}*/
-}
-@media screen and (max-width: 360px){
+}}
+
+
+@media screen and (max-width: 376px){
 	.first__box__h1, .first__box__h2{
 		font-size: 24px;
 	}
@@ -416,33 +379,26 @@
 		width: 16px;
 		height: 16px;
         	}
-   
+   .fiveth__box__grid {
+	width: 85%;
+	left: -15%;
+   }
 }
 @media screen and (max-width: 850px){
 	.fiveth__box__grid{
 		width: 100%;
-        
-    }
-
-	.fiveth__box__grid{
-        width: 100%;
-        margin: 0px;
+		margin: 0px;
 		padding: 10px;
-        align-items: center;
-	}
+       
+    }}
+      
     .fourth__cards__box__sale{
         width: 100%;
     }
     .fourth__cards__images__box{
         width: 100%;
     }
-	/*.fiveth__box__grid__input{
-		width: 60%;
-		position: relative;
-		left: 30%;
-		transform: translate(-50%, 0);
-	}*/
-}
+
 @media screen and (max-width: 640px){
 	.fiveth__box__grid__h2{
 		font-size: 16px;
@@ -451,103 +407,46 @@
 		font-size: 14px;
 	}
 }
-/*@media screen and (max-width: 610px){
-	.fiveth__box__grid__h2{
-		width: 80%;
-		margin: 0 auto;
-		font-size: 16px;
-	}
-	.fiveth__box__grid__h2__bottom{
-		width: 80%;
-		margin: 0 auto;
-		font-size: 14px;
-	}
-    
-}*/
 
-
-/*@media screen and (max-width: 610px){
-	.fiveth__box__grid__h2{
-		width: 70%;
-		margin: 0 auto;
-		font-size: 16px;
-	}
-	.fiveth__box__grid__h2__bottom{
-		width: 70%;
-		margin: 0 auto;
-		font-size: 14px;
-	}
-    .fourth__cards__images__box{
-        width: 80%;
-    }
-}*/
     @media screen and (max-width: 1009px){
 
 	.fiveth__box__grid{    
         width: 100%;
-        padding-left: 2%;
-        padding-right: 2%;
-        margin-left: 17%;
-	}
+        
+       	}
 	
 }
+@media screen and (max-width: 769px){
+
+	.fiveth__box__grid{
+		width: 100%;
+        left: 2%;
+      }}
 @media screen and (max-width: 540px){
 
 	.fiveth__box__grid{
 		width: 100%;
-        right: 15%;
-        left: -11%;
-        margin: 0;
-        padding-left: 2%;
-        padding-right: 2%;
+        left: -7%;
+        margin: 0 auto;
+       	}
 	}
-	
+	@media screen and (max-width: 415px){
+
+	.fiveth__box__grid{
+			width: 89%;
+			left: -17%;
+			margin: 0 auto;
+			   }}
+			
+@media screen and (max-width: 376px){
+	.fiveth__box__grid {
+		left: -19.5%;
+		width: 80%;
+	}
 }
-    /*@media screen and (max-width: 450px){*/
-    @media screen and (max-width: 980px){
-        padding-right 13%;
-    }
-	.container__third
+
+  
+   
     @media screen and (max-width: 980px){
 	.up_icon{
-        display: inline-block;}
-    /*@media screen and (max-width: 376px){
-    .header__contacts__icons{
-     margin: 0;
-    }
-    
-    .header__logo__text{
-        font-size: 12px;  
-    }
-    
-    	.fiveth__box__bottom{
-        right: 10%;}
-    .fourth__cards__images__box {
-              width: 60%;
-        margin-left: 2%;}
-    
-        
-    .fourth__cards__image {
-          width: 60%;
-        margin-left: 2%;}
-    
-    
-    .fourth__cards__prise__box__h2 {
-        width: 60%;
-        margin-left: 2%;}
-    
-        .fourth__cards__prise__box__about{
-            width: 60%;
-        	margin-left: 2%;
-		}
-        
-        .fourth__cards__box__sale{
-             
-        	margin-left: 2%;
-        }
-        .fiveth__box{
-             width: 60%;
-            margin-left: -5%;
-        
-        }
-    }*/
+        display: inline-block;}}

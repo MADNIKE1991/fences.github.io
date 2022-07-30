@@ -388,7 +388,7 @@ button,
     top: 90px;
     right: 0;
     left: 30%;
-    width: 98%;
+    width: max-content;
     margin: 0 auto;
 
 
@@ -422,15 +422,15 @@ button,
     width: 30%;
     right: 385px;
     margin-left: 10%;
-    margin-bottom: 10%;
-    margin-top: 15%;
+    margin-top: 17%;
     z-index: 1;
 
 }
 
 .container__third {
     width: 100%;
-    background: #FCFCFC;
+    background: #FCFCFC;;
+   
 }
 
 .container__third__text {
@@ -686,6 +686,7 @@ button,
     line-height: 33px;
     text-align: center;
     letter-spacing: 0.1em;
+    width: 100%;;
 
     color: #72E3A2;
 }
@@ -724,6 +725,7 @@ button,
    padding-left: 13%;
     padding-right: 13%;
     background: #72E3A2;
+   
 }
 
 .fiveth__box {
@@ -733,6 +735,7 @@ button,
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 30px;
     margin: 0 auto;
+    display: flex;
 }
 
 .fiveth__box__grid {
@@ -740,7 +743,7 @@ button,
     box-shadow: 0px 0px 10px 1px #5AC085;
     border-radius: 50px;
     padding: 50px;
-    width: 100%;
+    width: 50%;
     position: relative;
     margin: 0 auto;
     box-shadow: 0px 4px 4px #D9D9D9;
@@ -751,8 +754,6 @@ button,
 */
 
 
-}
-
 .fiveth__box__grid:nth-child(2) {
     padding: 0px;
     background: #FFFFFF;
@@ -760,7 +761,7 @@ button,
 }
 
 .fiveth__box__grid__h2 {
-    max-width: 100%;
+    
     font-family: 'Open Sans';
     font-style: normal;
     font-weight: 600;
@@ -768,7 +769,8 @@ button,
     line-height: 33px;
     letter-spacing: 0.1em;
     color: #767676;
-    width: 397px;
+    width: 100%;
+    text-align: center;
 }
 
 
@@ -787,7 +789,7 @@ button,
 }
 
 .fiveth__box__grid__img {
-    width: 100%;
+    
     height: 100%;
 }
 .fiveth__box__grid__form{
@@ -804,9 +806,8 @@ button,
 
 
 
-.fiveth__box__grid__input {
-        {
-   position: relative;
+/*.fiveth__box__grid__input {
+    position: relative;
     width: 280px;
     height: 80px;
     font-size: 16px;
@@ -816,16 +817,14 @@ button,
     border: none;
     cursor: pointer;
     margin-bottom: 30px;
-            
-    }
-}
+}*/
 
 
 .fiveth__box__grid__input__btn {
     position: relative;
     width: 280px;
     height: 80px;
-    margin-left: 6%;
+    margin-top: 30px;
     font-size: 16px;
     background: #FFE870;
     box-shadow: 0px 4px 4px #D9D9D9;
@@ -835,9 +834,7 @@ button,
     
 }
 
-letter-spacing: 0.1em;
-color: #767676;
-}
+
 
 .fiveth__box__grid__input__btn:hover {
     background: #84FFB8;
