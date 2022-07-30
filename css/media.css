@@ -379,10 +379,7 @@
 		width: 16px;
 		height: 16px;
         	}
-   .fiveth__box__grid {
-	width: 85%;
-	left: -15%;
-   }
+ 
 }
 @media screen and (max-width: 850px){
 	.fiveth__box__grid{
@@ -440,7 +437,7 @@
 			
 @media screen and (max-width: 376px){
 	.fiveth__box__grid {
-		left: -19.5%;
+		left: -21%;
 		width: 80%;
 	}
 }
